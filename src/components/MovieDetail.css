@@ -1,0 +1,12 @@
+.moviedetail-container {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+  color: var(--font-primary);
+}
+.cart {
+  display: flex;
+  justify-content: space-between;
+  /* height: 300px; */
+}

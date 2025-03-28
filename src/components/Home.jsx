@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import MovieApi from "../common/MovieApi";
 import { APIKEY } from "../common/APIKEY";
 import MovieListing from "./MovieListing";
-import { useDispatch } from "react-redux";
-import { addmovies } from "../features/Movies/movieSlice";
+// import { useDispatch } from "react-redux";
+// import { addmovies } from "../features/Movies/movieSlice";
 import { useQuery } from "@tanstack/react-query";
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
     <>Loading...</>
   ) : (
     <>
-      <div className="banner-img"></div>{" "}
+      <div className="banner-img"></div>
       <MovieListing data={data.data.results} />
     </>
   );
